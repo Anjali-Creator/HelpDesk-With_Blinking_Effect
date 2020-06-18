@@ -1,0 +1,28 @@
+.card {
+  float: left;
+  width: 18rem;
+  margin: 15px;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -webkit-transition: 0.25s box-shadow;
+  transition: 0.25s box-shadow;
+}
+.card:focus,
+.card:hover {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+  font-weight: bold;
+  background: #708090;
+  color: white;
+  padding: 15px;
+  padding: 18px;
+  font-size: 20px;
+}
+.btn {
+  text-align: left;
+  font-size: 25px;
+}
